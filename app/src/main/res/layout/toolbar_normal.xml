@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@drawable/border_bottom_background"
+    app:titleTextAppearance="@style/Title_Text">
+
+    <TextView
+        android:id="@+id/tvToolbarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13ssp"
+        android:maxLines="2"
+        android:layout_marginEnd="16dp"
+        android:ellipsize="end"
+        app:fontFamily="@font/roboto_medium"
+        tools:text="Account details" />
+</com.google.android.material.appbar.MaterialToolbar>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ImageSearch</string>
+    <string name="common_take_a_picture">Take a picture</string>
+    <string name="common_verify">Verify</string>
+    <string name="common_home">FaceOne</string>
+    <string name="common_error">Error</string>
+    <string name="common_signup">Sign Up</string>
+    <string name="common_signin">Sign In</string>
+    <string name="common_search_image">Search Image</string>
+    <string name="common_dashboard">Dashboard</string>
+    <string name="common_sign_up_successfully_title">Sign Up Successfully</string>
+    <string name="common_sign_up_successfully_message">You have signed up successfully</string>
+    <string name="common_ok">OK</string>
+    <string name="common_no_result">No results.</string>
+    <string name="common_keyword">Keyword</string>
+
+    <string name="error_message_generic">An error has occurred.</string>
+    <string name="error_message_offline">Your Internet connection appears to be offline.</string>
+    <string name="error_message_request_timed_out">The request timed out. Please try again.</string>
+    <string name="error_message_too_many_requests">There are too many requests. Please wait and try again later.</string>
+    <string name="error_message_challenge_cloudflare">There is a problem with your network. Please try again later or use a different network.</string>
+    <string name="error_message_invalid_url">Could not navigate to invalid URL.</string>
+    <string name="error_message_cannot_connect_to_server">Could not connect to server.</string>
+    
+    <string name="error_message_cannot_detect_face_in_image">Cannot detect a face in the image. Please try again.</string>
+</resources>
